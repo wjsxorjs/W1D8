@@ -19,7 +19,13 @@ public class Canvas_Ex6 extends Canvas {
 		g.setColor(Color.BLUE);
 		g.drawString(sb.toString(), x, y);
 		
-		
+	}
+	
+	@Override
+	public void update(Graphics g) {
+		// 기존의 Graphics를 그대로 paint에게 전달하면
+		// 지우지 않는다.
+		paint(g);
 	}
 
 }
