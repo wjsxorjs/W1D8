@@ -24,7 +24,7 @@ public class ExceptionEx1 {
 		} catch (InputMismatchException ex) {
 			// InputMismatchException이 발생했을 때만 수행하는 곳
 			su1 = 1;
-			su2 = 1;
+			su2 = 1; 
 			System.out.println("예의발생 처리! ");
 			
 		}

@@ -21,7 +21,7 @@ public class BfTestFrame1 extends JFrame implements ActionListener {
 		bt1 = new JButton("-");
 		bt2 = new JButton("RESET");
 		bt3 = new JButton("+");
-		
+		 
 		pl1 = new JPanel();
 		
 		tf1 = new JTextField("0",3);
